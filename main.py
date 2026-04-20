@@ -20,7 +20,7 @@ def graph(e):
 
     topaz_sales_graph = plt.bar(months, absences) # display graph
     plt.show(topaz_sales_graph)
-    plt.title("Topaz's Absence's Per Month")
-    plt.xlabel("Days")
-    plt.ylabel("Sales")
+    plt.title("Topaz's Absences Per Month")
+    plt.xlabel("Months")
+    plt.ylabel("Absences")
     
